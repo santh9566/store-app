@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+    <script src="https://kit.fontawesome.com/1015aa5319.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="number">
+           <i class="fa-sharp fa-solid fa-phone" style="color: #000000;"></i>
+           <label>080-3456665</label>
+        </div>
+        <div class="dropdown">
+            <i class="fa-sharp fa-solid fa-location-dot" style="color: #000000;"></i>
+            <label for="area">Select your area</label>
+            <select name="area" id="area">
+              <option value="#">Maldives</option>
+              <option value="#">Dubai</option>
+              <option value="#">Madagascar</option>
+              <option value="#">kwait</option>
+            </select>
+          <i class="fa-solid fa-user" style="color: #04070b;"></i>
+          <label>Sign in </label>  
+          <i class="fa-sharp fa-solid fa-heart" style="color: #020408;"></i>
+          <label>Wishlist</label>
+        </div>
+    </div>
+    <hr style="height:2px;border-width:0;color:rgb(211, 223, 47);background-color:rgb(208, 202, 45)">
+
+    <div class="nav">
+        <img src="pictures/page0002.jpg">
+            <li>Apparel</li> 
+              <i class="fa fa-caret-down"></i>
+            <li>Jewellary</li>
+            <li>Home Decor</li>
+            <input type="text" placeholder ="Store name, Material name,etc..."/><button>SEARCH</button>
+    </div>
+    <div class="container">
+      <h1><span>Home</span> / Store Register</h1>
+      <div class="details">
+        <div class="circle">1</div><p>Store Register</p>
+        <div class="circle">2</div><p>Select Category</p> 
+        <div class="circle">3</div><p>Verify Store Detail</p>
+      </div>
+      <br>
+      <hr style="height:2px;border-width:0;color:rgb(103, 173, 220);background-color:rgb(103, 173, 220)">
+      <div class="result">
+        <h3>Store Registered details</h3>
+        <br>
+        <p>Store name     :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TKS Enterprise</p><br><br>
+        <p>Store location :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chennai</p><br><br>
+        <p>Store contact  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9876543210</p><br><br>
+        <p>Store alternate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -</p><br><br>
+        <p>Store address  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nethaji street, velachery,chennai.</p><br><br>
+        <p>pincode        :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 600042</p><br><br>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="result1">
+        <h4>Selected Category Details</h4>
+        <br>
+        <h4>Select Category Type: Apparel</h4>
+        <br>
+        <br>
+        <h5>Mens</h5>
+        <p>Mens formal</p>
+        <p>Mens Casual</p>
+        <h5>Womens</h5>
+        <p>Womens Formal</p>
+        <p>Womens Casual</p>
+        <p>Womens Formal</p>
+        <h5>Womens</h5>
+        <p>Womens Kids Formal</p>
+        <p>Kids</p>
+      </div>
+      <br>
+      <div class="button2">
+        <button type="button2" id="previous-button" onclick="previousStep()">Previous</button>
+        <button type="next" id="next-button" onclick="redirecttopage()">Next</button>
+        <button type="submit" id="finish-button" onclick="submitForm()">Finish</button>
+    </div>
+    </div>
+    <br>
+      <footer>
+        <div class="container6">
+          <div class="row">
+              <div class="column-4">
+                  <img src="pictures/page0006.jpg">
+                  <ul>
+                      <li>Need Help?</li>
+                      <i class="fa-sharp fa-solid fa-phone"></i>
+                      <label>080-3456665</label>
+                      <i class="fa-sharp fa-solid fa-envelope"></i>
+                      <label>oolagu@gmail.com</label>
+                  </ul>
+                  <br>
+                <h3><strong>Social Share</strong></h3>
+                <div class="icons">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"> </i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </div>
+            </div>
+            <div class="column-4">
+              <h3><strong>About</strong></h3>
+              <ul>
+                  <li>About Us</li>
+                  <li>Frequently Asked Questions</li>
+                  <li>Contacts</li>
+                  <li>Login</li>
+                  <li>Register</li>
+                  <li>Terms And Conditions</li>
+              </ul>
+          </div>
+          <div class="column-4">
+            <h3><strong>Discover</strong></h3>
+            <ul>
+                <li>Add Business To OOLAGU</li>
+                <li>Business Support</li>
+                <li>Advertise in OOLAGU</li>
+                <li>Blog</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div class="column-4">
+          <h3><strong>NewsLetter</strong></h3>
+          <ul>
+              <li>Join Our Newsletter to keep be informed about offers and news.</li>
+              <input type="text" placeholder ="Enter You Email"/><button>Subscribe</button>
+    
+          </ul>
+      </div>
+    
+      </footer>
+    
+</body>
+</html>

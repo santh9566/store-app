@@ -1,0 +1,712 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    margin-top: 15px;
+    position: sticky;
+    
+}
+.navbar .dropdown{
+    margin-left: 780px;
+    justify-content: space-around;
+    font-family: Arial;
+    font-size: 15px;
+}
+.navbar .number{
+    font-family: Arial;
+    font-size: 15px;
+}
+.dropdown select{
+    background-color: rgb(103, 173, 220);
+    color:white;
+    font-size: 15px;
+    border: -1px;
+}
+.nav{
+    box-shadow: 0 13px 50px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    font-size: 17px;
+    font-family:  Arial;
+    color: rgb(71, 70, 70);
+}
+.nav img{
+    height: 30%;
+    width: 15%;
+
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav li{
+    justify-content: space-between;
+    margin-left: 55px;
+    display: flex;
+}.nav input{
+    justify-content: space-between;
+    margin-left: 260px;
+    width: 300px;
+    height: 23px;
+    border-radius: 8px 0px 0px 8px;
+    font-family: Arial ;
+    
+
+}.nav button{
+    font-size: 18px;
+    color: white;
+    width: 152px;
+    height: 49px;
+    font-family:  Arial;
+    background-color: rgb(103, 173, 220);
+    border: -1px;
+    border-radius: 0px 8px 8px 0px;
+    margin-top: 3px;
+    margin-left: 0px;
+}
+.nav button:hover{
+    background-color: rgb(118, 190, 237);
+}
+.container h1{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-family:  Arial;
+}
+span{
+    color: rgb(103, 173, 220);
+}
+.container .details{
+    color: rgb(103, 173, 220)   ;
+    font-size: 18px;
+    font-family:  Arial ;
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.details .circle{
+    
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    background: rgb(103, 173, 220) ;
+    border: 1px solid rgb(103, 173, 220) ;
+    color: white;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    margin-left: 150px;
+}
+.details p{
+    margin-right: 150px;
+    margin-top: 18px;
+    justify-content: center;
+}
+.details p:hover {
+    color: grey;
+}
+.circle:hover{
+    background-color: grey;
+}
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top:25px;
+    margin-right: 650px;
+    font-family: Arial;
+
+  }
+  input, textarea {
+    width: 150%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #28afab;
+    border-color: #28afab;
+  }
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  .button button {
+    margin-top: 20px;
+    margin-right: -70px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 14px;
+    border-radius: 9px;
+    
+  }
+  .button1 button {
+    margin-top: 20px;
+    margin-right: -70px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 14px;
+    border-radius: 9px;
+    
+  }
+  .button2 button {
+    margin-top: 20px;
+    margin-left: -70px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 14px;
+    border-radius: 9px;
+    
+  }
+  .button2 button[type="button"]{
+    background-color: rgb(202, 194, 194);
+    color: white;
+    border-color:  white;
+    font-size: 18px;
+    margin-left: 153px;
+    margin-top: 153px;
+
+  }
+  button[type="submit"] {
+    background-color: rgb(216, 105, 105);
+    color: white;
+    border-color: white;
+    font-size: 18px;
+  }
+  button[type="next"] {
+    background-color: rgb(105, 192, 216);
+    color: white;
+    border-color:  rgb(105, 192, 216);
+    font-size: 18px;
+  }
+  button[type="button"] {
+    background-color: rgb(202, 194, 194);
+    color: white;
+    border-color:  white;
+    font-size: 18px;
+    margin-left: -415px;
+    margin-top: 153px;
+  }
+  .card{
+    box-sizing: 0 13px 50px black;
+    background-color: rgb(118, 205, 228);
+    margin-top: 10px;
+    margin-right: 250px;
+    margin-left: 10px;
+    
+}
+.card p{
+    justify-content: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+.drop{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+
+}
+.lists{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 235px;
+    grid-gap: 110px;
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+    margin-top: 66px;
+}
+.list1 input[type="checkbox"]{
+    margin-left: -260px;
+    
+}
+.list1 label{
+       margin-left: -143px;
+}
+.list2 input[type="checkbox"]{
+    margin-left: -260px;
+}
+.list2 label{
+       margin-left: -143px;
+}
+.list3 input[type="checkbox"]{
+    margin-left: -260px;
+}
+.list3 label{
+       margin-left: -143px;
+}
+.list4 input[type="checkbox"]{
+    margin-left: -260px;
+}
+.list4 label{
+       margin-left: -143px;
+}
+.list5 input[type="checkbox"]{
+    margin-left: -260px;
+}
+.list5 label{
+       margin-left: -143px;
+}
+.list6 input[type="checkbox"]{
+    margin-left: -260px;
+}
+.list6 label{
+       margin-left: -143px;
+}
+.list7 input[type="checkbox"]{
+    margin-left: -260px;
+}
+.list7 label{
+       margin-left: -143px;
+}
+.container6 .row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.container6 .row .column-4 img{
+    height: 97px;
+    width: 194px;
+}
+
+.container6 .row .column-4,.container6 .row .column-4 ul {
+    display: flex;
+    flex-direction: column;
+    color: rgb(231, 229, 229);
+    padding-top: 10px;
+    list-style-type: none;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.container6 .row .column-4,.container6 .row .column-4 ul li {
+    padding-top:15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.container6{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        height: 50vh;
+    }
+    .container6 .column-4  i{
+        font-size: 13px;
+        padding-top: 10px;
+
+        
+         
+    }
+.icons{
+    display: flex;
+    font-size: 18px;
+    
+}
+.icons i{
+    padding-left: 15px;
+     color: gray;
+     font-size: 13px;
+
+}
+.container6 .row .column-4 input{
+    justify-content: space-between;
+    margin-left: -3px;
+    width: 300px;
+    height: 23px;
+    border-radius: 8px 0px 0px 8px;
+    font-family: Arial ;
+}
+.container6 .row .column-4 button{
+    font-size: 18px;
+    color: white;
+    width: 152px;
+    height: 52px;
+    font-family:  Arial;
+    background-color: rgb(103, 173, 220);
+    border: -1px;
+    border-radius: 0px 8px 8px 0px;
+    margin-top: -49px;
+    margin-left: 322px;
+}
+.result {
+    margin-top: 10px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    justify-content: space-between;
+    
+
+}
+.result p{
+    justify-content: center;
+    align-items: center;
+}
+.result h3{
+    margin-bottom: 10px ;
+    font-family: Arial, sans-serif;
+}
+.result span{
+    color: black;
+    margin-left: 30px;
+    padding: 135px;
+    align-items: center;
+    
+}
+.result1 p{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px ;
+    font-family: Arial, sans-serif;
+    
+}.result1 h4{
+    margin-bottom: 10px ;
+    font-family: Arial, sans-serif;
+    margin-left: 25px;
+}
+.result1 h5{
+    margin-bottom: 10px ;
+    font-family: Arial, sans-serif;
+    margin-left: 15px;
+}
+.result1 {
+    display: grid;
+    
+
+
+    
+}
+@media screen and (max-width:786px){  
+    .navbar{
+        display:flex;
+        flex-direction: column;
+
+}
+.navbar .dropdown{
+    margin-left:447px;
+    font-size: 12px;
+    margin-top: -25px;
+}
+.nav{
+    display: flex;
+    font-size: 12px;
+
+}
+.nav li{
+    margin-left: 20px;
+}
+.nav input{
+    margin-left: 43px;
+    width: 230px;
+    height: 15px;
+    font-size: 12px;
+}
+.nav button{
+    font-size: 12px;
+    height: 41px;
+    width: 150px;
+    margin-left: -36px;
+}
+.container h1{
+    font-size: 15px;
+}
+.container .details{
+    display: flex;
+    font-size: 12px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+.details .circle{
+    margin-left: 50px;
+    border-radius: 50%;
+    font-size: 28px;
+    width: 25px;
+    height: 25px;
+
+}
+.details p{
+    font-size: 13px;
+    margin-top: 8px;
+}
+.form{
+    max-width: 400px;
+    margin-top:20px;
+    margin-right: 380px;
+    margin-left: 63px;
+    font-size: 15px;
+}
+.button button{
+    margin-top: 20px;
+    margin-right: 11px;
+    font-size: 15px;
+}
+.button button[type="button"] {
+    margin-left: -170px;
+}
+.container6 .row{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    width: 100%;
+    font-size: 15px;
+}
+.container6{
+    height: 82vh;
+}
+.container6 .row .column-4 img{
+    height: 93px;
+    width: 160px;
+    margin-top: -13px;
+}
+.container6 .row .column-4,.container6 .row .column-4 ul li{
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.container6 .column-4  i{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.container6 .row .column-4 input{
+    margin-left: -84px;
+    margin-top: 55px;
+    width: 230px;
+    height: 13px;
+}
+.container6 .row .column-4 button{
+    
+    width: 160px;
+    height: 38px;
+    margin-left: 172px;
+    margin-top: -39px;
+}
+.lists{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 60px;
+}
+.card{
+    height: 65px;
+    width: 655px;
+}
+}
+@media screen and (max-width:320px) {
+    .navbar{
+        display:flex;
+        flex-direction: column;
+
+}
+.navbar .number {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.navbar .dropdown{
+    margin-left:121px;
+    font-size: 12px;
+    margin-top: -25px;
+}
+.navbar .dropdown label{
+    font-size: 10px;
+    display: none;
+    margin-top: 10px;
+}
+.navbar .dropdown select{
+    font-size: 10px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+.nav img{
+    height: 50px;
+    width: 105px;
+    margin-right: 223px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.nav ul li{
+    margin-left: 154px;
+    margin-top: 1px; ;
+    display: flex;
+    flex-direction:row-reverse;
+}
+.nav i{
+    margin-left: 213px;
+    margin-top: -12px;
+}
+.nav input{
+    margin-left: -114px;
+    width: 155px;
+    height: 5px;
+    font-size: 12px;
+}
+.nav button{
+    font-size: 12px;
+    height: 31px;
+    width: 100px;
+    margin-left: 160px;
+    margin-top: -31px;
+}
+.container h1{
+    font-size: 15px;
+}
+.container .details{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.details .circle{
+    margin-left: -190px;
+    margin-top: 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 5px;
+    height: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.details p{
+    font-size: 13px;
+    margin-top: -17px;
+    margin-right: 28px;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+.form{
+    max-width: 400px;
+    margin-top:20px;
+    margin-right: 380px;
+    margin-left: 63px;
+    font-size: 13px;
+}
+input, textarea{
+    height: 20px;
+    width: 175px;
+}
+.button button{
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    align-items: center;
+}
+.container6 .row{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    font-size: 15px;
+}
+.container6{
+    height: 150vh;
+}
+.container6 .row .column-4 img{
+    height: 93px;
+    width: 160px;
+    margin-top: -13px;
+}
+.container6 .row .column-4,.container6 .row .column-4 ul li{
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.container6 .column-4  i{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.container6 .row .column-4 input{
+    margin-left: 7px;
+    margin-top: 4px;
+    width: 140px;
+    height: 13px;
+}
+.container6 .row .column-4 button{
+    
+    width: 120px;
+    height: 40px;
+    margin-left: 172px;
+    margin-top: -39px;
+}
+.lists{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    margin-right: -215px;
+    justify-items: center;
+}
+.card{
+    height: 57px;
+    width: 300px;
+}
+.card p{
+    font-size: 12px;
+}
+.list1 input[type="checkbox"]{
+    margin-left: -350px;
+    
+}
+.list1 label{
+       margin-left: -68px;
+}
+.list2 input[type="checkbox"]{
+    margin-left: -350px;
+}
+.list2 label{
+       margin-left: -68px;
+}
+.list3 input[type="checkbox"]{
+    margin-left: -350px;
+}
+.list3 label{
+       margin-left: -68px;
+}
+.list4 input[type="checkbox"]{
+    margin-left: -350px;
+}
+.list4 label{
+       margin-left: -68px;
+}
+.list5 input[type="checkbox"]{
+    margin-left: -350px;
+}
+.list5 label{
+       margin-left: -68px;
+}
+.list6 input[type="checkbox"]{
+    margin-left: -350px;
+}
+.list6 label{
+       margin-left: -68px;
+}
+.list7 input[type="checkbox"]{
+    margin-left: -350px;
+}
+.list7 label{
+       margin-left: -68px;
+}
+}
+
+
+
+
+
+
+
+
+ 
+
+

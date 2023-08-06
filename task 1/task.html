@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="task.css">
+    <script src="https://kit.fontawesome.com/1015aa5319.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="task.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="number">
+           <i class="fa-sharp fa-solid fa-phone" style="color: #000000;"></i>
+           <label>080-3456665</label>
+        </div>
+        <div class="dropdown">
+            <i class="fa-sharp fa-solid fa-location-dot" style="color: #000000;"></i>
+            <label for="area">Select your area</label>
+            <select name="area" id="area">
+              <option value="#">Maldives</option>
+              <option value="#">Dubai</option>
+              <option value="#">Madagascar</option>
+              <option value="#">kwait</option>
+            </select>
+          <i class="fa-solid fa-user" style="color: #04070b;"></i>
+          <label>Sign in </label>  
+          <i class="fa-sharp fa-solid fa-heart" style="color: #020408;"></i>
+          <label>Wishlist</label>
+        </div>
+    </div>
+    <hr style="height:2px;border-width:0;color:rgb(211, 223, 47);background-color:rgb(208, 202, 45)">
+
+    <div class="nav">
+        <img src="pictures/page0002.jpg">
+        <ul>
+            <li>Apparel</li> 
+              <i class="fa fa-caret-down"></i>
+            <li>Jewellary</li>
+            <li>Home Decor</li>
+        </ul>
+            <br>
+            <input type="text" placeholder ="Store name, Material name,etc..."/><button>SEARCH</button>
+    </div>
+    <div class="container">
+      <h1><span>Home</span> / Store Register</h1>
+      <div class="details">
+        <div class="circle">1</div><p>Store Register</p>
+        <div class="circle">2</div><p>Select Category</p> 
+        <div class="circle">3</div><p>Verify Store Detail</p>
+      </div>
+      <br>
+      <hr style="height:2px;border-width:0;color:rgb(103, 173, 220);background-color:rgb(103, 173, 220)">
+  <div class="form">
+    <form action="finish.html" method="post">
+      <label for="store-name">Store Name:</label>
+    <input type="text"placeholder="Store name" id="store-name" required>
+    <div id="store-name-error" class="error-message"></div>
+
+    <label for="store-location">Store Location:</label>
+    <input type="text"placeholder="Store location" id="store-location" required>
+    <div id="store-location-error" class="error-message"></div>
+
+    <label for="store-contact">Store Contact Number:</label>
+    <input type="tel"placeholder="Store number" id="store-contact" required>
+    <div id="store-contact-error" class="error-message"></div>
+
+    <label for="store-alternate">Store Alternate Number:</label>
+    <input type="tel"placeholder="Store alternate number" id="store-alternate">
+    <div id="store-alternate-error" class="error-message"></div>
+
+    <label for="store-address">Store Address:</label>
+    <textarea placeholder="Store address"  id="store-address" required></textarea>
+    <div id="store-address-error" class="error-message"></div>
+
+    <label for="pincode">Pincode:</label>
+    <input type="text"placeholder="Pin number" id="pincode" required>
+    <div id="pincode-error" class="error-message"></div>
+    <br>
+
+    <div class="button">
+      <button type="previous" id="previous-button" onclick="previousStep()">Previous</button>
+      <button type="next" id="next-button" onclick="redirecttopage()">Next</button>
+      <button type="submit" id="finish-button" onclick="">Finish</button>
+    </div>
+  </form>
+
+    </div>
+  </div>
+  <script>
+    function redirecttopage() {
+        window.location.href="next.html";
+    }
+</script>
+  <br>
+  <footer>
+    <div class="container6">
+      <div class="row">
+          <div class="column-4">
+              <img src="pictures/page0006.jpg">
+              <ul>
+                  <li>Need Help?</li>
+                  <i class="fa-sharp fa-solid fa-phone"><label>080-3456665</label></i>
+                  
+                  <i class="fa-sharp fa-solid fa-envelope"><label>oolagu@gmail.com</label></i>
+                  
+              </ul>
+              <br>
+            <h3><strong>Social Share</strong></h3>
+            <div class="icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"> </i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+            </div>
+        </div>
+        <div class="column-4">
+          <h3><strong>About</strong></h3>
+          <ul>
+              <li>About Us</li>
+              <li>Frequently Asked Questions</li>
+              <li>Contacts</li>
+              <li>Login</li>
+              <li>Register</li>
+              <li>Terms And Conditions</li>
+          </ul>
+      </div>
+      <div class="column-4">
+        <h3><strong>Discover</strong></h3>
+        <ul>
+            <li>Add Business To OOLAGU</li>
+            <li>Business Support</li>
+            <li>Advertise in OOLAGU</li>
+            <li>Blog</li>
+            <li>Careers</li>
+        </ul>
+    </div>
+    <div class="column-4">
+      <h3><strong>NewsLetter</strong></h3>
+      <ul>
+          <li>Join Our Newsletter to keep be informed about offers and news.</li>
+          <input type="text" placeholder ="Enter You Email"/><button>Subscribe</button>
+
+      </ul>
+  </div>
+
+  </footer>
+
+</body>
+</html>
